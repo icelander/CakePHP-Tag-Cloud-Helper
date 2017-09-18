@@ -35,7 +35,7 @@ class TagCloudHelper extends AppHelper
          return;
       }
       
-      $this->options = array_merge($options, $this->options);
+      $this->options = array_merge($this->options, $options);
       $o = $this->options;
 		 
       $max_size = $o['max_font_size']; // max font size in pixels
